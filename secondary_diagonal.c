@@ -13,7 +13,8 @@ int main(){
         //
         for(i=0;i<r;i++){
         for(j=0;j<c;j++){
-            if(i==j){
+
+            if(i+j == r-1){
                 //we are diagonal
             }
             else
@@ -26,12 +27,12 @@ int main(){
         }
     }
     if(is_diagonal == 1){
-        printf(" This is primary diagonal matrix\n");
+        printf(" This is secondRY diagonal matrix\n");
 
     }
     }
     else{
-        printf(" Not primary diagonal matrix\n");
+        printf(" Not secondRY diagonal matrix\n");
     }
     return 0; 
 }  
