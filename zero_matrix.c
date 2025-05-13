@@ -17,6 +17,7 @@ int main(){
             }
         }
     }
+    
     if(total_matrix==zero_matrix){
         printf("Zero matrix\n");
     }
